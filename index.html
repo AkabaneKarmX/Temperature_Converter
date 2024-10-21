@@ -1,0 +1,43 @@
+<!-- This Temperature Converter Program Was Made By Fortune Marvellous. -->
+<!-- Please Credit Me! Why?? Because It's The Right Thing To Do. -->
+<!-- Add, Change, Or Modify, The Decision Is Yours. ಠ_ಠ -->
+<!-- Don't Fotget To Leave A Kind Message For Other Developers Who Modify/ Change The Code. -->
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Stylesheets/style.css" type="text/css">
+   <title>Temperature Converter</title>
+</head>
+
+<body>
+   <div class="temperature-converter">
+      <div class="temperature-inputs">
+         <label for="temperatureValue">Enter Temperature(celsius, Kelvin, Fahrenheit): </label>
+         <input type="text" id="temperatureValue">
+      </div>
+
+      <div class="temperature-units">
+         <label for="celsiusToKelvin"><input type="radio" name="tempUnit" id="celsiusToKelvin">Celsius To Kelvin</label>
+         <label for="celsiusToFahrenheit"><input type="radio" name="tempUnit" id="celsiusToFahrenheit">Celsius To Fahrenheit</label>
+         <label for="kelvinToFahrenheit"><input type="radio" name="tempUnit" id="kelvinToFahrenheit">Kelvin To Fahrenheit</label>
+         <label for="fahrenheitToKelvin"><input type="radio" name="tempUnit" id="fahrenheitToKelvin">Fahrenheit To Kelvin</label>
+      </div>
+
+      <div class="Buttons_And_Outputs">
+         <button id="submitButton">Submit</button>
+         <button id="resetButton">Reset</button>
+         <p>Answer: <span id="tempValue"></span></p>
+      </div>
+
+   </div>
+
+
+   <script src="Scripts/index.js" type="text/javascript"></script>
+</body>
+
+</html>
