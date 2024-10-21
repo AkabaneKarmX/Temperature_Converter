@@ -1,46 +1,46 @@
-      /* Added some basic styling to make the page look better */
-      body {
-         font-family: Arial, sans-serif;
-      }
+/* Added some basic styling to make the page look better */
+body {
+  font-family: Arial, sans-serif;
+}
 
-      .temperature-converter {
-         max-width: 400px;
-         margin: 40px auto;
-         padding: 20px;
-         border: 1px solid #ccc;
-         border-radius: 10px;
-         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
+.temperature-converter {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-      label {
-         display: block;
-         margin-bottom: 10px;
-      }
+label {
+  display: block;
+  margin-bottom: 10px;
+}
 
-      input[type="text"] {
-         width: 95%;
-         padding: 10px;
-         margin-bottom: 20px;
-         border: 1px solid #ccc;
-      }
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
 
-      input[type="radio"] {
-         margin-right: 10px;
-      }
+input[type="radio"] {
+  margin-right: 10px;
+}
 
-      button {
-         padding: 10px 20px;
-         background-color: #4CAF50;
-         color: #fff;
-         border: none;
-         border-radius: 5px;
-         cursor: pointer;
-      }
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-      #resetButton{
-         margin-left: 20px;
-      }
+#resetButton {
+  margin-left: 20px;
+}
 
-      button:hover {
-         background-color: #3e8e41;
-      }
+button:hover {
+  background-color: #3e8e41;
+}
